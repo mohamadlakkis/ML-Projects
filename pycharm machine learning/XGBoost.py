@@ -16,8 +16,8 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 # Training XGBoost on the Training set
-from xgboost import XGBClassifier
-classifier = XGBClassifier()
+from xgboost import XGBClassifier 
+classifier = XGBClassifier() #to regression change class by regressor
 classifier.fit(X_train, y_train)
 
 # Making the Confusion Matrix
