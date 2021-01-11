@@ -46,6 +46,7 @@ x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.2,random_state=
 '''
 training the naive bayes model on the training set
 '''
+
 from sklearn.naive_bayes import GaussianNB
 classifier = GaussianNB()
 classifier.fit(x_train,y_train)
