@@ -16,6 +16,7 @@ rules = apriori(transactions=transcation, min_support=0.003,min_confidence=0.2,m
 visualising the results
 ######
 '''
+
 '''
 displaying the 1st result coming directly from the output of the apriori function
 '''
